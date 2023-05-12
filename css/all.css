@@ -1,0 +1,13 @@
+@import "menu.css";
+@import "inicio.css";
+@import "container-1.css";
+@import "conteudo.css";
+@import "footer.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}

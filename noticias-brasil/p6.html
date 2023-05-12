@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim - CyberSafeCor</title>
+
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/add-r.css' rel='stylesheet'>
+
+    <!-- =================== FAICON ================== -->
+    <link rel="shortcut icon" href="../img-inicial/Logo-branca-cyber.png" type="image/x-icon">
+
+    <!-- =================== CSS ================== -->
+    <link rel="stylesheet" href="../css/all.css">
+</head>
+<body>
+    <!-- =================== MENU ================== -->
+    <header id="header">
+        <a id="logo" href="../index.html">
+            <img src="../img-inicial/LOGO-CYBER.png" alt="">
+        </a>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+            <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a href="../views/brasil.html">Brasil</a></li>
+                <li><a href="../views/ultimasnoticias.html">Ùltimas Notícias</a></li>
+                <li><a href="../views/deepweb.html">Deep Web</a></li>
+                <li><a href="../views/vazamentos.html">Vazamentos</a></li>
+                <li><a href="#inscreva-se" class="inscreva-se">Inscreva-se</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ================= BANNER ================= -->
+    <section style="background-image: url(../noticias-brasil/img-brasil/img-bloco-6.webp); width: 100%; filter: brightness(50%)" class="banner">
+        <div class="titulo-banner">
+
+             <!-- ================= TITULO DO CONTEUDO ================= -->
+             <h1>A tecnologia blockchain pode ajudar no combate das fakes news?
+            </h1>
+        </div>
+    </section>
+
+    <!-- =================== CONTEUDO ================== -->
+    <section class="conteudo">
+        <div class="texto">
+
+            <p>A Agência Nacional de Telecomunicações (Anatel) em parceria com a Universidade Federal de Goiás (UFG) estão estudando o uso da tecnologia blockchain para combater as fake news. O projeto pretende criar uma solução descentralizada de "fact checkers", utilizando algoritmos de geração de consenso para investigar a veracidade das informações.</p>
+
+            <p>O presidente da Anatel, Carlos Baigorri, afirmou que a nova ferramenta de checagem de informações a partir do blockchain deve contar com a contribuição de veículos profissionais de imprensa que devem trabalhar de forma colaborativa. O recurso deve estar disponível para uso dentro de um ano.</p>
+
+            <p>O executivo explicou que o projeto pretende utilizar algoritmos do tipo "proof of stake" (PoS) para classificação de conteúdo. Ele ressaltou que esta é uma tecnologia da Web 3.0 e que o uso do blockchain como arma para combater fake news demonstra o envolvimento da Anatel em assuntos do ecossistema digital.</p>
+
+            <h2 style="margin-top: 20px;">Como funciona a tecnologia blockchain?</h2>
+
+            <p>O blockchain é uma tecnologia que funciona como um livro-razão digital descentralizado e imutável, muito utilizado em criptomoedas, como bitcoin. Ele funciona como um banco de dados distribuído em que as informações são armazenadas em blocos interconectados que formam uma cadeia.</p>
+
+            <p>Cada bloco contém um conjunto de transações e um registro criptografado de transações anteriores. Quando um novo bloco é adicionado à cadeia, todas as transações em cada bloco são verificadas e validadas por uma rede de computadores que trabalham juntos para manter a integridade da rede.</p>
+
+            <p>Uma vez que um bloco é adicionado à cadeia, ele é considerado imutável, pois qualquer tentativa de alterar os dados em um bloco seria imediatamente detectada pela rede. Dessa forma, as informações checadas e validadas pela comunidade podem ser identificadas pelos usuários, o que facilita a identificação de conteúdo confiável e de qualidade.</p>
+
+            <p>O blockchain também pode ser programado para executar contratos inteligentes, que são acordos digitais autoexecutáveis que seguem um conjunto predefinido de regras. Isso permite que as transações sejam automatizadas e reduz a necessidade de intermediários.</p>
+
+        </div>
+
+        <div class="img-marke">
+            <a href="https://cybersafecorp.com.br/">
+                <img src="../img-inicial/marke.png" alt="">
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- =================== FOOTER ================== -->
+    <footer>
+        <div id="inscreva-se" class="escreva-se">
+            <p>Escreva-se para receber notícias e conteudos atualizados</p>
+            <form action="https://formsubmit.co/boletim.cybersafecorp@gmail.com" method="POST">
+                <div class="form-lado">
+                    <div>
+                      <label for="nome">Nome:</label>
+                      <input type="text" placeholder="Nome completo" id="nome" name="nome" required>
+                    </div>
+                    <div>
+                      <label for="email">E-mail:</label>
+                      <input type="email" placeholder="Seu melhor e-mail" id="email" name="email" required>
+                    </div>
+                </div>
+                <button type="submit">ENVIAR</button>
+            </form>              
+        </div>
+
+        <div class="contatos">
+            <div class="redes">
+                <a target="_blank" href="https://www.instagram.com/cybersafecorp/">
+                    <img src="../icons/instagram.png" alt="">
+                </a>
+
+                <a target="_blank" href="https://twitter.com/cybersafecorp?t=7_AGQ0oXVTZo6p_z1FbUCA&s=08">
+                    <img src="../icons/twitter (2).png" alt="">
+                </a>
+
+                <a href="#">
+                    <img src="../icons/linkedin.png" alt="">
+                </a>
+            </div>
+            <a class="contato-footer" href="https://cybersafecorp.com.br/suporte/index.html">Entre em contato com a CyberSafeCorp.</a>
+            <p>Copyright © 2023 CyberSafeCorp. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- ===================  JAVASCRIPT ================== -->
+    <script src="../js/menu.js"></script>
+    <script src="../js/busca.js"></script>
+</body>
+</html>

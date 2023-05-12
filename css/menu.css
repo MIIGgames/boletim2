@@ -1,0 +1,233 @@
+body,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#menu a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+#menu a:hover {
+    color: #847f7f;
+}
+  
+#logo {
+  margin-left: 5rem;
+  margin-top: 15px;
+}
+
+#logo img {
+  width: 300px;
+  height: 90px;
+}
+
+#header {
+  box-sizing: border-box;
+  height: 80px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+}
+
+#menu {
+    margin-right: 5rem;
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+#menu a {
+  display: block;
+  padding: 0.5rem;
+}
+
+#btn-mobile {
+  display: none;
+}
+
+.inscreva-se {
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 2px;
+}
+.inscreva-se:hover {
+    background-color: #fff;
+    color: #000;
+}
+@media (max-width: 600px) {
+  #logo {
+    width: 50px;
+    height: 50px;
+    margin-left: -0;
+  }
+  #logo img {
+    width: 250px;
+    height: 100px;
+  }
+  #header {
+    box-sizing: border-box;
+    height: 85px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+  }
+  #menu {
+    margin-right: 0px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    right: 0px;
+    background: #000000;
+    transition: .6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    text-align: right;
+    line-height: 50px;
+    overflow-y: hidden;
+  }
+  #nav.active #menu {
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+  #menu a {
+    padding: 1rem 0;
+    margin: 0 1rem 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    text-align: center;
+  }
+  #menu li:hover {
+    border-bottom: none;
+    background-color: #ffffff53;
+  }
+  #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+    color: #FFF;
+  }
+  #hamburger {
+    border-top: 2px solid;
+    width: 20px;
+  }
+  #hamburger::after,
+  #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+  #nav.active #hamburger {
+    border-top-color: transparent;
+  }
+  #nav.active #hamburger::before {
+    transform: rotate(135deg);
+  }
+  #nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+
+  .inscreva-se{
+    border: 1px solid #fff;
+    border-radius: 2px;
+    border: none;
+}
+}
+
+@media (max-width: 968px) {
+  #logo {
+    width: 100px;
+    height: 100px;
+    margin-left: -0;
+  }
+  #menu {
+    margin-right: 0px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    right: 0px;
+    background: #000000;
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    text-align: center;
+    line-height: 50px;
+    overflow-y: hidden;
+  }
+  #nav.active #menu {
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+  #menu a {
+    padding: 2rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  }
+  #menu li:hover {
+    border-bottom: none;
+    background-color: #ffffff53;
+  }
+  #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+    color: #FFF;
+  }
+  #hamburger {
+    border-top: 2px solid;
+    width: 20px;
+  }
+  #hamburger::after,
+  #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+  #nav.active #hamburger {
+    border-top-color: transparent;
+  }
+  #nav.active #hamburger::before {
+    transform: rotate(135deg);
+  }
+  #nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+
+  .inscreva-se{
+    border: 1px solid #fff;
+    border-radius: 2px;
+    border: none;
+}
+}
